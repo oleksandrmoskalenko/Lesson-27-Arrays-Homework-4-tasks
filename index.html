@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="task task1">
+        <h1 class="task__title">Task 1</h1>
+        <div class="task__img task__img--task1"></div>
+        <input type="text" class="task__input" id="input11">
+        <label for="input11" class="task__label">name</label>
+        <br />
+        <input type="number" class="task__input" id="input12">
+        <label for="input12" class="task__label">required amount</label>
+        <br />
+        <input type="text" class="task__input" id="input13">
+        <label for="input13" class="task__label">bought <span style="font-size: 12px;">(if yes - write
+                yes)</span></label>
+        <br />
+        <button class="task__button task1__button--list">Show Purchase list</button>
+        <button class="task__button task1__button--add">Add to purchase list</button>
+        <button class="task__button task1__button--purchase">Purchase Product</button>
+        <div class="task1__result task1__result--list"></div>
+    </div>
+
+    <div class="task task2">
+        <h1 class="task__title">Task 2</h1>
+        <div class="task__img task__img--task2"></div>
+        <button class="task__button task2__button--check">Show Check</button>
+        <button class="task__button task2__button--sum">Calculate Purchase Sum</button>
+        <button class="task__button task2__button--expensive">Show the most expensive one</button>
+        <button class="task__button task2__button--average">Show the average price</button>
+        <div class="task2__result task2__result--check"></div>
+        <div class="task2__result task2__result--sum"></div>
+        <div class="task2__result task2__result--expensive"></div>
+        <div class="task2__result task2__result--average"></div>
+    </div>
+
+    <div class="task task2">
+        <h1 class="task__title">Task 3</h1>
+        <div class="task__img task__img--task3"></div>
+        <input type="text" class="task__input" id="input3">
+        <label for="input11" class="task__label">Write the text</label>
+        <br />
+        <button class="task__button task3__button--text">Show Text</button>
+        <div class="task2__result task3__result--text"></div>
+    </div>
+
+    <script src="js/task1.js"></script>
+    <script src="js/task2.js"></script>
+    <script src="js/task3.js"></script>
+</body>
+
+</html>

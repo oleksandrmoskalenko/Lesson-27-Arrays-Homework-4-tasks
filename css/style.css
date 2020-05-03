@@ -1,0 +1,39 @@
+.task {
+  margin-bottom: 50px;
+}
+.task__img {
+  width: 100%;
+  background: url(../img/task.png) no-repeat;
+  margin-bottom: 30px;
+}
+.task__img--task1 {
+  background-position: left top;
+  height: 220px;
+}
+.task__img--task2 {
+  background-position: left 43%;
+  height: 130px;
+}
+.task__img--task3 {
+  background-position: left 65%;
+  height: 110px;
+}
+.task__button {
+  width: 180px;
+  height: 80px;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.task__input {
+  height: 30px;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.task__label {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

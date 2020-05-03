@@ -1,0 +1,44 @@
+.task {
+        margin-bottom: 50px;
+
+    &__img {
+        width: 100%;
+        background: url(../img/task.png) no-repeat;
+        margin-bottom: 30px;
+
+        &--task1 {
+            background-position: left top;
+            height: 220px;
+        }
+
+        &--task2 {
+            background-position: left 43%;
+            height: 130px;
+        }
+
+        &--task3 {
+            background-position: left 65%;
+            height: 110px;
+        }
+    }
+
+    &__button {
+        width: 180px;
+        height: 80px;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__input {
+        height: 30px; 
+        width: 200px; 
+        margin-right: 20px; 
+        margin-bottom: 30px;
+    }
+
+    &__label {
+        margin-right: 20px;
+    }
+}
