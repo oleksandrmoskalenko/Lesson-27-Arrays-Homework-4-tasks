@@ -18,6 +18,10 @@
   background-position: left 65%;
   height: 110px;
 }
+.task__img--task4 {
+  background-position: left bottom;
+  height: 200px;
+}
 .task__button {
   width: 180px;
   height: 80px;
